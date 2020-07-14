@@ -23,6 +23,7 @@ html, body {
 
 .join-inner-container {
     width: 20%;
+    min-width: 300px;
 }
 
 .join-input {

@@ -23,7 +23,7 @@ const Join = () => {
             placeholder="Room"
             className="join-input mt-20"
             type="text"
-            onChange={(event) => setName(event.target.value)} />
+            onChange={(event) => setRoom(event.target.value)} />
         </div>
         <Link
           onClick={(event) => (!name || !room ? event.preventDefault() : null)}
